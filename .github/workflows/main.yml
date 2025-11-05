@@ -47,11 +47,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB.TOKEN }}
-          publish_dir: newman/
-        
-        
-        
-        
+          publish_dir: newman/ 
         
       
     
